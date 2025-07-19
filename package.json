@@ -1,0 +1,21 @@
+npm init -y
+{
+  "name": "crownaudio-transcriber-backend",
+  "version": "1.0.0",
+  "description": "Backend for audio transcription using Google Cloud Speech-to-Text",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "@google-cloud/speech": "^5.4.0",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1"
+  }
+}
+
